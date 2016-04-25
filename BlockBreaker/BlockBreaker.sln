@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{3B487057-9FA2-B477-56D8-6E58076F93E6}") = "BlockBreaker", "Assembly-CSharp-firstpass.csproj", "{87B0BC0F-6C28-13CF-F922-97A6894E4388}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B0BC0F-6C28-13CF-F922-97A6894E4388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B0BC0F-6C28-13CF-F922-97A6894E4388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B0BC0F-6C28-13CF-F922-97A6894E4388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B0BC0F-6C28-13CF-F922-97A6894E4388}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
