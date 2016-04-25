@@ -15,7 +15,5 @@ public class PaddleControl : MonoBehaviour {
 		paddlePosition.x = Mathf.Clamp(mousePosInBlocks, 0.5f, 15.5f);
 		transform.position = paddlePosition;
 		print (mousePosInBlocks);
-
-	
 	}
 }
