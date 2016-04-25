@@ -6,8 +6,8 @@ public class MusicController : MonoBehaviour
 
 static MusicController instance = null;
 	
-	// Use this for initialization
-	void Start () {
+	void Awake ()
+	{
 		if (instance != null)
 		{
 			Destroy(gameObject);
@@ -16,7 +16,12 @@ static MusicController instance = null;
 		{
 			instance = this;
 			GameObject.DontDestroyOnLoad(gameObject);
-		}
+		}		
+	}
+	
+	// Use this for initialization
+	void Start () {
+
 	}
 	
 	// Update is called once per frame
