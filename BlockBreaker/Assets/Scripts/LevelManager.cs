@@ -12,5 +12,10 @@ public class LevelManager : MonoBehaviour
 	public void QuitGame(){
 		Application.Quit();		
 	}	
+	
+	public void LoadNextLevel()
+	{
+		Application.LoadLevel(Application.loadedLevel + 1);
+	}
 }
 

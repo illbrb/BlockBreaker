@@ -23,13 +23,13 @@ public class BallController : MonoBehaviour {
 		{
 			//Lock ball to paddle until mouse input
 			this.transform.position = paddle.transform.position + paddleToBallVector;
-			
+						
 			//Sets gamestarted to true, and fires ball
 			if (Input.GetMouseButtonDown(0))
 			{
-			hasGameStarted = true;
-			var ballfire = GetComponent<Rigidbody2D>();
-			ballfire.velocity = new Vector2(velX, velY);
+				hasGameStarted = true;
+				var ballfire = GetComponent<Rigidbody2D>();
+				ballfire.velocity = new Vector2(velX, velY);
 			}
 		}	
 	}
